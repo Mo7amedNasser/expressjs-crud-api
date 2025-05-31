@@ -1,4 +1,4 @@
-# Express CRUD API
+# Express RESTful API CRUD Project
 
 A simple and efficient RESTful API built with Express.js and MongoDB for managing products.  
 This project demonstrates the fundamental CRUD (Create, Read, Update, Delete) operations on a product resource, making it an excellent starting point for learning backend development with Node.js and MongoDB.
