@@ -7,7 +7,7 @@ This project demonstrates the fundamental CRUD (Create, Read, Update, Delete) op
 
 - RESTful API endpoints for managing products  
 - CRUD operations: Create, Read, Update, Delete  
-- **Robust data validation using [Zod] schema validation library to ensure type safety and data integrity**  
+- **Robust data validation using [Zod](https://github.com/colinhacks/zod) schema validation library to ensure type safety and data integrity**  
 - Comprehensive error handling with meaningful HTTP status codes  
 - JSON request and response handling for seamless API interaction  
 - Connection to MongoDB Atlas for reliable cloud database storage  
