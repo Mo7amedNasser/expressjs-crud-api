@@ -18,7 +18,13 @@ This project demonstrates the fundamental CRUD (Create, Read, Update, Delete) op
 - [Express.js](https://expressjs.com/)  
 - [MongoDB](https://www.mongodb.com/) with Mongoose ODM  
 - [Zod](https://github.com/colinhacks/zod) for schema validation  
-- ES Modules (import/export syntax)  
+- ES Modules (import/export syntax)
+
+## API Testing
+
+All API endpoints have been thoroughly tested using [Postman](https://www.postman.com/).  
+You can explore the complete API documentation and test the requests directly through the published Postman documentation here:  
+[Postman API Documentation](https://documenter.getpostman.com/view/35951396/2sB2qgdxrK/)
 
 ## Getting Started
 
