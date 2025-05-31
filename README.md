@@ -15,8 +15,8 @@ This project demonstrates the fundamental CRUD (Create, Read, Update, Delete) op
 ## Technologies Used
 
 - Node.js  
-- Express.js  
-- MongoDB with Mongoose ODM  
+- [Express.js](https://expressjs.com/)  
+- [MongoDB](https://www.mongodb.com/) with Mongoose ODM  
 - [Zod](https://github.com/colinhacks/zod) for schema validation  
 - ES Modules (import/export syntax)  
 
