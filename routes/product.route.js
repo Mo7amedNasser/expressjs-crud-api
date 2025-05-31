@@ -1,4 +1,7 @@
 import express from "express";
+import { validate } from "../middlewares/validate.js";
+import { productSchema } from "../validators/product.validation.js";
+
 const router = express.Router();
 
 import {
@@ -24,11 +27,11 @@ router.get("/", getProducts);
 router.get("/:id", getSingleProduct);
 
 /**
- * @desc    Create a new product
+ * @desc    Validate and create a new product
  * @route   POST /api/products
  * @access  Public
  */
-router.post("/", createProduct);
+router.post("/", validate(productSchema), createProduct);
 
 /**
  * @desc    Delete a product by ID
@@ -38,10 +41,10 @@ router.post("/", createProduct);
 router.delete("/:id", deleteProduct);
 
 /**
- * @desc    Update a product by ID
+ * @desc    Validate and update a product by ID
  * @route   PUT /api/products/:id
  * @access  Public
  */
-router.put("/:id", updateProduct);
+router.put("/:id", validate(productSchema), updateProduct);
 
 export default router;
